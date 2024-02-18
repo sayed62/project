@@ -14,6 +14,7 @@ export default function App(){
     [
       {
         path:'', element:<Layout /> ,  children: [
+          {path:'', element:<Home />},
           {path:'project', element:<Home />},
           {path:'about', element:<About />},
           { path:'PORTFOLIO', element:<PORTFOLIO />},
