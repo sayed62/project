@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function notfount() {
-return (
+  return (
     <>
     <div className='py-5 my-5 text-center'>
         <h2>
@@ -14,6 +14,7 @@ return (
     </div>
     
     </>
-    )
+  )
 }
+
 
