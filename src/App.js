@@ -2,10 +2,11 @@ import React from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Components/Layout';
 import Home from './Components/home';
-import PORTFOLIO from './Components/PORTFOLIO ';
+import PORTFOLIO from './Components/PORTFOLIO';
 import About from './Components/about';
 import Contact from './Components/contact';
 import './App.css';
+import Notfount from './Components/Notfount';
 
 export default function App(){
 
@@ -17,6 +18,7 @@ export default function App(){
           {path:'about', element:<About />},
           { path:'PORTFOLIO', element:<PORTFOLIO />},
           {path:'contact', element: <Contact />},
+          {path:'*', element: <Notfount />},
         ]  
       }
     ]
